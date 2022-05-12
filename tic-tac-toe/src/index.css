@@ -21,15 +21,15 @@ ol, ul {
   background: #fff;
   border: 1px solid #999;
   float: left;
-  font-size: 24px;
+  font-size: 34px;
   font-weight: bold;
-  line-height: 34px;
-  height: 34px;
+  line-height: 60px;
+  height: 60px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 60px;
 }
 
 .square:focus {
@@ -45,6 +45,22 @@ ol, ul {
   flex-direction: row;
 }
 
+.game-board{
+  min-width: 240px;
+}
+
 .game-info {
   margin-left: 20px;
+}
+
+.history-item{
+  margin-top: 20px;
+}
+
+/* .history-list{
+  display: flex;
+} */
+
+.bold >*>*>* {
+  background-color: #98ff74;
 }
